@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.movil {
+  background: url(movil2.png);
+  background-color: #fade7e;
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: center top;
+  transition: all 0.5s ease;
+}
+
+.movil:hover {
+  background: url(movil2.png);
+  background-color: #fade7e;
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: center center;
+  transition: all 0.5s ease;
+}
+
+.info-rotate:hover h5 {
+  transform: rotate(10deg);
+  transition: all 0.5s ease;
+}
+
+.designux {
+  background: url(designux.jpg);
+  background-size: 100%;
+  background-position: center center;
+  transition: all 0.5s ease;
+  background-repeat: no-repeat;
+}
+
+.designux:hover {
+  background: url(designux.jpg);
+  background-size: 110%;
+  background-position: center center;
+  transition: all 0.5s ease;
+  background-repeat: no-repeat;
+}
+
+*::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #b6b6b6e4; /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+  border: 0px solid #f1f1f1; /* creates padding around scroll thumb */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #a0a0a0e4; /* color of the scroll thumb */
+}
+
+.card .ArrowUpRight {
+  transition: all 0.5s ease;
+}
+
+.card:hover .ArrowUpRight {
+  transform: translate(5px, -5px);
+  transition: all 0.5s ease;
+}
+
+.slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: bottom;
+}
+
+.slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: top;
+}
