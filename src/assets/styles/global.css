@@ -11,7 +11,7 @@
 }
 
 .movil {
-  background: url(movil2.png);
+  background: url(movil.png);
   background-color: #fade7e;
   background-repeat: no-repeat;
   background-size: 140%;
@@ -20,33 +20,17 @@
 }
 
 .movil:hover {
-  background: url(movil2.png);
-  background-color: #fade7e;
   background-repeat: no-repeat;
   background-size: 140%;
   background-position: center center;
   transition: all 0.5s ease;
 }
 
+
+
 .info-rotate:hover h5 {
   transform: rotate(10deg);
   transition: all 0.5s ease;
-}
-
-.designux {
-  background: url(designux.jpg);
-  background-size: 100%;
-  background-position: center center;
-  transition: all 0.5s ease;
-  background-repeat: no-repeat;
-}
-
-.designux:hover {
-  background: url(designux.jpg);
-  background-size: 110%;
-  background-position: center center;
-  transition: all 0.5s ease;
-  background-repeat: no-repeat;
 }
 
 *::-webkit-scrollbar {
@@ -111,7 +95,6 @@
   text-transform: uppercase;
   display: flex;
   white-space: nowrap;
-  display: flex;
   flex-wrap: nowrap;
 }
 
@@ -138,11 +121,6 @@
 }
 
 .footerbg:hover {
-  background: url(cursor.png);
-  background-size: 10%;
   background-position: left 15px bottom 15px;
   transition: all 0.5s ease;
-  background-repeat: no-repeat;
-  background-color: #E8E8E8;
-  filter: invert(1000%);
 }

@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "./components/Header";
-import WebAMedida from "./components/WebAMedida";
-import MyPortfolio from "./components/MyPortfolio";
-import PreguntasFrecuentes from "./components/PreguntasFrecuentes";
-import MyStack from "./components/MyStack";
+import Header from "./sections/Header";
+import WebAMedida from "./sections/WebAMedida";
+import MyPortfolio from "./sections/MyPortfolio";
+import PreguntasFrecuentes from "./sections/PreguntasFrecuentes";
+import MyStack from "./sections/MyStack";
 import transition from "../../transitions/transition";
-import AnimatedText from "./components/AnimatedText";
-import ContactMe from "./components/ContactMe";
+import AnimatedText from "./sections/AnimatedText";
+import ContactMe from "./sections/ContactMe";
 
-function Index() {
+function Home() {
   return (
     <React.Fragment>
       <Header />
@@ -24,5 +24,5 @@ function Index() {
   );
 }
 
-const TransitionedIndex = transition(Index);
+const TransitionedIndex = transition(Home);
 export default TransitionedIndex;
