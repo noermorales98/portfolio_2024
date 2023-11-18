@@ -1,37 +1,23 @@
-import { Link, createBrowserRouter } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "../components/navbar/Navbar";
-import Index from "../views/home/index";
+import TransitionedIndex from "../views/home/index";
+import { AnimatePresence } from "framer-motion";
+import ErrorWithTransition from "../views/error/Error";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Navbar />,
-    children: [
-      {
-        path: "/",
-        element: <Index />,
-      },
-    ],
-  },
-  {
-    path: "*",
-    element: <Navbar />,
-    children: [
-      {
-        path: "*",
-        element: (
-          <section className="flex flex-col items-center gap-2 justify-center h-screen">
-            <h1 className="text-5xl text-[#171717] font-medium">
-              404: Página no encontrada
-            </h1>
-            <Link to="/" className="text-xl text-blue-800">
-              Regresar al inicio
-            </Link>
-          </section>
-        ),
-      },
-    ],
-  }
-]);
+const AppRoutes = () => {
+  const location = useLocation();
 
-export default router;
+  return (
+    <>
+      <Navbar />
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
+          <Route index element={<TransitionedIndex />} />
+          <Route path="*" element={<ErrorWithTransition />} />
+        </Routes>
+      </AnimatePresence>
+    </>
+  );
+};
+
+export default AppRoutes;
