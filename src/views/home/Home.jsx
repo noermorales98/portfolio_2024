@@ -6,15 +6,19 @@ import PreguntasFrecuentes from "./components/PreguntasFrecuentes";
 import MyStack from "./components/MyStack";
 import transition from "../../transitions/transition";
 import AnimatedText from "./components/AnimatedText";
+import ContactMe from "./components/ContactMe";
 
 function Index() {
   return (
     <React.Fragment>
       <Header />
-      <MyStack />
       <WebAMedida />
       <MyPortfolio />
-      <AnimatedText />
+      <div className="bg-[#171717] py-8 mt-20">
+        <MyStack />
+        <AnimatedText />
+      </div>
+      <ContactMe />
       <PreguntasFrecuentes />
     </React.Fragment>
   );

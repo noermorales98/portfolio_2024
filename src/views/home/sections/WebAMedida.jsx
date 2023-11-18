@@ -26,7 +26,7 @@ export default function WebAMedida() {
     >
       <section className="bg-[#ffffffe2] max-w-7xl m-auto flex flex-row justify-between h-full w-full gap-4 py-20 animate-fade-up px-8">
         <div className="w-3/5 flex flex-col justify-between gap-4 bg-[#f5f5f7] p-10 rounded-2xl animate-fade border">
-          <div className="flex flex-col gap-2 justify-center h-full">
+          <div className="flex flex-col items-start gap-2 justify-center h-full">
             <h4 className="text-2xl text-[#4a4a4a] text-start">
               Desarrollo de sitios web
             </h4>
@@ -36,18 +36,24 @@ export default function WebAMedida() {
               <span className="text-[#5157fd]">personalizado</span>, que se
               adapta a las necesidades de tu negocio.
             </p>
-            <Link to="/contacto" className="mt-10">
-              <span className="bg-[#171717] text-white text-xl font-medium rounded-xl px-8 py-4 mt-8">
-                Contáctame
-              </span>
-            </Link>
+            <motion.div
+              className="box items-start justify-center flex"
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            >
+              <Link to="/contacto" className="mt-10">
+                <span className="bg-[#171717] text-white text-xl font-medium rounded-xl px-8 py-4 mt-8">
+                  Contáctame
+                </span>
+              </Link>
+            </motion.div>
           </div>
         </div>
         <div className="w-2/5">
           <img
             src="techmate.png"
             alt="Factusync"
-            className="rounded-2xl border"
+            className="rounded-2xl"
           />
         </div>
       </section>

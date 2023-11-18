@@ -20,7 +20,7 @@ function ParallaxText({ children, baseVelocity = 100 }) {
     damping: 50,
     stiffness: 400,
   });
-  const velocityFactor = useTransform(smoothVelocity, [0, 1000], [0, 5], {
+  const velocityFactor = useTransform(smoothVelocity, [0, 2000], [0, 5], {
     clamp: false,
   });
 
@@ -60,7 +60,7 @@ ParallaxText.propTypes = {
 
 export default function AnimatedText() {
   return (
-    <section className="w-full bg-[#171717] py-24 flex flex-col gap-2 text-white text-7xl">
+    <section className="w-full bg-[#171717] font-semibold font-mono py-24 flex flex-col gap-2 text-[#686868] text-7xl">
       <ParallaxText baseVelocity={-5}>
         Diseño y desarrollo de sitios web y apps
       </ParallaxText>

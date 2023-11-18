@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import { ArrowUpRight } from "../../../assets/icons/ArrowUpRight";
-import { DesignIcon } from "../../../assets/icons/DesignIcon";
-import { AboutMeIcon } from "../../../assets/icons/AboutMeIcon";
+import { ArrowUpRight } from "../../../assets/icons/cards/ArrowUpRight.jsx";
+import { DesignIcon } from "../../../assets/icons/cards/DesignIcon.jsx";
+import { AboutMeIcon } from "../../../assets/icons/cards/AboutMeIcon.jsx";
+import { motion } from "framer-motion";
 
 export default function Header() {
   return (
@@ -16,20 +17,27 @@ export default function Header() {
             <b>atractivo y funcional.</b>
           </span>
         </div>
-        <div className="animate-fade-up flex flex-col gap-4 w-2/5 animate-delay-[100ms]">
+        <div className="animate-fade-up flex flex-col items-start gap-4 w-2/5 animate-delay-[100ms]">
           <span className="text-3xl pt-20">
             Lleve su presencia en línea al siguiente nivel con mis servicios de
             diseño web y creación de contenido.
           </span>
-          <Link
-            to="/contacto"
-            className="border border-[#171717] bg-[#171717] hover:bg-black text-white transition-all rounded-full px-8 w-36 py-3 flex items-center justify-center"
+          <motion.div
+            className="box items-center justify-center flex"
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
-            <span className=" text-base p-0 m-0">Contáctame</span>
-          </Link>
+            <Link
+              to="/contacto"
+              className="btn border border-[#171717] bg-[#171717] hover:bg-black text-white transition-all rounded-full px-8 w-36 py-3 flex items-center justify-center"
+            >
+              <span className=" text-base p-0 m-0">Contáctame</span>
+            </Link>
+          </motion.div>
         </div>
       </div>
       <div className="grid grid-cols-6 max-w-7xl m-auto gap-4 px-8 pb-8">
+        
         <div className="animate-fade-up card row-span-2 col-span-2 bg-[#171717] rounded-3xl p-8 flex flex-col items-start justify-between gap-10 animate-delay-[100ms]">
           <div className="flex flex-col items-start">
             <img
