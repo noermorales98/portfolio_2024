@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const faqData = [
     {
         question: "¿Cuánto tiempo lleva desarrollar un sitio web?",
@@ -39,8 +41,8 @@ export default function PreguntasFrecuentes() {
     return (
         <section className="flex flex-col justify-between items-start max-w-7xl m-auto px-8 py-32 gap-24">
             <div className="w-full flex flex-col items-center justify-center gap-4">
-                <h5 className="text-5xl text-[#171717] text-center font-medium">Preguntas frecuentes</h5>
-                <p className="text-xl text-[#171717] text-center font-medium">
+                <h5 className="text-5xl text-[#171717] text-center font-medium max-md:text-3xl">Preguntas frecuentes</h5>
+                <p className="text-xl text-[#171717] text-center font-medium max-md:text-gray-700">
                     Aquí encontrarás las respuestas a las preguntas más frecuentes que me hacen mis clientes.
                 </p>
             </div>
@@ -52,3 +54,9 @@ export default function PreguntasFrecuentes() {
         </section>
     );
 }
+
+
+FAQItem.propTypes = {
+    question: PropTypes.string.isRequired,
+    answer: PropTypes.string.isRequired,
+};

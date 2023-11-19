@@ -14,7 +14,7 @@ function Home() {
       <Header />
       <WebAMedida />
       <MyPortfolio />
-      <div className="bg-[#171717] py-8 mt-20">
+      <div className="bg-[#171717] py-8 mt-20 max-md:pb-20 max-md:pt-2">
         <MyStack />
         <AnimatedText />
       </div>

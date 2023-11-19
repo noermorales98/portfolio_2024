@@ -15,23 +15,23 @@ export default function Header() {
 
 function MainInfo() {
   return (
-    <div className="flex flex-row justify-between items-center font-sans text-[#171717] px-8 h-[70vh] max-md:flex-col max-md:mt-36 max-md:justify-center">
+    <div className="flex flex-row justify-between items-center font-sans text-[#171717] px-8 h-[70vh] max-md:h-[50vh] max-md:flex-col max-md:mt-8 max-md:justify-center">
       <div className="w-3/5 flex flex-col gap-4 animate-fade-up max-md:w-full max-md:text-center">
-        <h4 className="text-7xl">
+        <h4 className="text-7xl max-md:text-5xl">
           Hola, soy <b>Noelí.</b>
         </h4>
-        <span className="text-3xl">
+        <span className="text-3xl max-md:text-xl">
           Te ayudo a construir tu sitio web <br />
           <b>atractivo y funcional.</b>
         </span>
       </div>
       <div className="w-2/5 animate-fade-up flex flex-col items-start gap-4 animate-delay-[100ms] max-md:w-full max-md:text-center max-md:items-center">
-        <span className="text-3xl pt-20 max-md:pt-10">
+        <span className="text-3xl pt-20 max-md:pt-10 max-md:text-lg max-md:hidden">
           Lleve su presencia en línea al siguiente nivel con mis servicios de
           diseño web y creación de contenido.
         </span>
         <motion.div
-          className="box items-center justify-center flex"
+          className="box items-center justify-center flex max-md:mt-10"
           whileHover={{ scale: 1.1 }}
           transition={{ type: "spring", stiffness: 400, damping: 10 }}
         >
@@ -49,7 +49,7 @@ function MainInfo() {
 
 function GridSection() {
   return (
-    <div className="grid grid-cols-6 max-w-7xl m-auto gap-4 px-8 pb-8 max-lg:grid-cols-2">
+    <div className="grid grid-cols-6 max-w-7xl m-auto gap-4 max-md:gap-2 px-8 pb-8 max-lg:grid-cols-2">
       <div className="animate-fade-up card row-span-2 col-span-2 bg-[#171717] rounded-3xl p-8 flex flex-col items-start justify-between gap-10 animate-delay-[100ms]">
         <div className="flex flex-col items-start">
           <img
@@ -59,7 +59,7 @@ function GridSection() {
             className=" h-20 w-20"
             alt="profile"
           />
-          <h5 className="text-white text-2xl font-medium">Noelí Rodríguez</h5>
+          <h5 className="text-white text-2xl font-medium mt-4">Noelí Rodríguez</h5>
           <span className="text-[#dedede] text-base font-medium">
             Desarrollador Web
           </span>
@@ -84,7 +84,7 @@ function GridSection() {
         </div>
       </div>
       <div className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all col-span-2 bg-[#90c3ff] rounded-3xl flex flex-row justify-between animate-delay-[150ms] p-8">
-        <div className="flex flex-col justify-between w-full">
+        <div className="flex flex-col justify-between w-full max-md:gap-6">
           <span>
             <DesignIcon />
           </span>
@@ -101,9 +101,9 @@ function GridSection() {
           </div>
         </div>
       </div>
-      <div className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all movil col-span-2 rounded-3xl animate-delay-[200ms]"></div>
+      <div className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all movil col-span-2 rounded-3xl animate-delay-[200ms] max-lg:h-48"></div>
       <div className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all col-span-2 bg-[#c7acee] rounded-3xl flex flex-row justify-between animate-delay-[150ms] p-8">
-        <div className="flex flex-col justify-between w-full">
+        <div className="flex flex-col justify-between w-full max-md:gap-6">
           <span>
             <AboutMeIcon />
           </span>
@@ -120,11 +120,11 @@ function GridSection() {
         </div>
       </div>
       <div className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all bg-[#b5f2db] rounded-3xl animate-delay-[300ms] h-full">
-        <div className="flex flex-col justify-between w-full items-center h-full p-8">
+        <div className="flex flex-col justify-between w-full items-center h-full p-8 max-md:gap-6">
           <span className="w-full flex items-end flex-row justify-end">
             <ArrowUpRight />
           </span>
-          <h5 className="text-black font-bold text-3xl max-lg:text-2xl flex flex-col">
+          <h5 className="text-black font-bold text-3xl max-lg:text-2xl max-md:text-xl flex flex-col">
             <div className="flex flex-col">
               <span>Mi trabajo</span>
             </div>
@@ -132,11 +132,11 @@ function GridSection() {
         </div>
       </div>
       <div className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all bg-[#f9d9e0] rounded-3xl animate-delay-[350ms]">
-        <div className="flex flex-col justify-between w-full items-center h-full p-8">
+        <div className="flex flex-col justify-between w-full items-center h-full p-8 max-md:gap-6">
           <span className="w-full flex items-end flex-row justify-end">
             <ArrowUpRight />
           </span>
-          <h5 className="text-black font-bold text-3xl max-lg:text-2xl flex flex-col">
+          <h5 className="text-black font-bold text-3xl max-lg:text-2xl max-md:text-xl flex flex-col">
             <div className="flex flex-col">
               <span>Redes Sociales</span>
             </div>

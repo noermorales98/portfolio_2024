@@ -1,6 +1,6 @@
 export const LlamadaIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-    className="w-16 h-16 LlamadaIcon"
+    className="w-16 h-16 LlamadaIcon max-md:w-10 max-md:h-10"
     >
         <path d="M20 10.999h2C22 5.869 18.127 2 12.99 2v2C17.052 4 20 6.943 20 10.999z"></path>
         <path

@@ -5,6 +5,7 @@ import { AnimatePresence } from "framer-motion";
 import ErrorWithTransition from "../views/error/Error";
 import Footer from "../components/footer/Footer";
 import ScrollToTop from "../transitions/scrollTop";
+import TransitionedAbout from "../views/about/About.jsx";
 
 const AppRoutes = () => {
   const location = useLocation();
@@ -17,6 +18,7 @@ const AppRoutes = () => {
 
         <Routes location={location} key={location.pathname}>
           <Route index element={<TransitionedIndex />} />
+          <Route path="/about" element={<TransitionedAbout />} />
           <Route path="*" element={<ErrorWithTransition />} />
         </Routes>
       </AnimatePresence>

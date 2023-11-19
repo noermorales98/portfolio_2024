@@ -36,7 +36,7 @@ export default function Footer() {
 
   return (
     <footer className="w-full text-[#171717] text-center py-8 max-w-7xl m-auto px-8">
-      <div className="grid grid-cols-5 max-lg:grid-cols-3 py-8 border-b">
+      <div className="grid grid-cols-5 max-lg:grid-cols-3 py-8 border-b gap-2 justify-between">
         <LinkList title="Páginas" links={pages} />
         <LinkList title="Servicios" links={services} />
         <LinkList title="Contacto" links={contactInfo} />
@@ -48,8 +48,8 @@ export default function Footer() {
           </span>
         </div>
       </div>
-      <div className="font-semibold pt-8 flex flex-row justify-between items-center">
-        <span className="text-gray-600">
+      <div className="font-semibold pt-8 max-md:pb-16 flex flex-row justify-between items-center">
+        <span className="text-gray-600 text-start max-md:text-xs">
           © 2023 - Todos los derechos reservados
         </span>
         <ul className="flex flex-row gap-2">
@@ -65,12 +65,12 @@ export default function Footer() {
 function LinkList({ title, links }) {
   return (
     <div className="flex flex-col items-start gap-6">
-      <h5 className="text-base font-semibold uppercase text-gray-600">
+      <h5 className="text-base font-semibold uppercase text-gray-600 text-start max-md:text-sm">
         {title}
       </h5>
       <ul className="flex flex-col gap-2 items-start">
         {links.map((link, index) => (
-          <li key={index} className="text-base font-medium">
+          <li key={index} className="text-base font-medium max-md:text-xs text-start">
             {link.href === "#" ? (
               <span>{link.text}</span>
             ) : link.isExternal ? (

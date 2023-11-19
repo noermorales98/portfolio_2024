@@ -26,10 +26,10 @@ export default function MyStack() {
         <motion.div className="card-container bg-[#171717] pt-24" {...motionProps}>
             <section className="flex flex-row justify-between items-center max-w-7xl m-auto px-8">
                 <div className="flex flex-col gap-2 items-center w-full justify-center">
-                    <h5 className="text-center text-5xl text-white font-medium">
-                        Tecnologías que utilizo
+                    <h5 className="text-center text-5xl text-white font-medium max-md:text-3xl max-md:mb-3">
+                        Tecnologías <span className=" max-md:hidden">que utilizo</span>
                     </h5>
-                    <p className="text-center text-2xl text-[#686868]">
+                    <p className="text-center text-2xl text-[#686868] max-md:text-xl">
                         Estas son las tecnologías que utilizo para crear sitios web.
                     </p>
                     <GridSection/>
@@ -41,7 +41,7 @@ export default function MyStack() {
 
 function GridSection() {
     return (
-        <div className="MyStack grid grid-cols-6 text-[#979797] fill-[#979797] w-full justify-between text-xl py-8">
+        <div className="MyStack grid grid-cols-6 max-md:grid-cols-3 max-md:gap-3 text-[#979797] fill-[#979797] w-full justify-between text-xl py-8">
             {techStack.map((tech, index) => (
                 <TechCard key={tech.name} tech={tech} delay={index * 0.2} />
             ))}
@@ -54,7 +54,7 @@ function TechCard({ tech, delay }) {
         <motion.div className="card-container" {...motionProps} viewport={{ ...motionProps.viewport, amount: delay }}>
             <article className="flex flex-col items-center justify-center transition-all hover:fill-white hover:text-white">
                 <tech.Icon />
-                <span>{tech.name}</span>
+                <span className="max-md:text-sm">{tech.name}</span>
             </article>
         </motion.div>
     );

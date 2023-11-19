@@ -35,10 +35,10 @@ export default function MyPortfolio() {
                     viewport={{once: true, amount: 0.1}}>
             <section className="bg-[#ffffffe2] flex flex-col items-center justify-center w-full gap-8 py-20 px-8">
                 <div className="flex flex-col gap-3">
-                    <h4 className="text-5xl text-[#171717] text-center font-medium">
+                    <h4 className="text-5xl text-[#171717] text-center font-medium max-md:text-3xl max-md:font-bold">
                         Mi portafolio
                     </h4>
-                    <p className="text-2xl text-[#171717] text-center">
+                    <p className="text-2xl text-[#171717] text-center max-md:text-xl">
                         Estos son algunos de los proyectos que he realizado.
                     </p>
                 </div>
@@ -51,7 +51,7 @@ export default function MyPortfolio() {
 function GridSection({projects}) {
     return (
         <>
-            <div className="grid grid-cols-3 max-w-7xl m-auto gap-4 mt-4 px-8">
+            <div className="grid grid-cols-3 max-md:grid-cols-1 max-md:gap-8 max-w-7xl m-auto gap-4 mt-4 px-8">
                 {projects.map((project, index) => (
                     <ProjectCard key={index} {...project} />
                 ))}
@@ -65,8 +65,8 @@ function ProjectCard({name, description, image, alt}) {
     return (
         <article className="flex flex-col gap-4">
             <img src={image} alt={alt} className="rounded-2xl border hover:p-2 transition-all duration-500"/>
-            <h5 className="text-2xl text-[#171717] text-center font-medium">{name}</h5>
-            <p className="text-xl text-[#686868] text-center">{description}</p>
+            <h5 className="text-2xl max-md:text-xl text-[#171717] text-center font-medium">{name}</h5>
+            <p className="text-xl max-md:text-base text-[#686868] text-center">{description}</p>
         </article>
     );
 }

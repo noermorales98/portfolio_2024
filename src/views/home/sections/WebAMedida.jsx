@@ -38,10 +38,13 @@ export default function WebAMedida() {
 function TextoWeb() {
     return (
         <div className="flex flex-col items-start gap-2 justify-center pb-10">
-            <h4 className="text-2xl text-[#4a4a4a] text-start">
+            <h4 className="text-2xl text-[#4a4a4a] text-start max-md:hidden">
                 Desarrollo de sitios web
             </h4>
-            <p className="text-4xl text-[#171717] text-start font-bold pr-8">
+            <h4 className="hidden max-md:block text-3xl text-black text-start font-bold">
+                Desarrollo Web
+            </h4>
+            <p className="text-4xl text-[#171717] text-start font-bold pr-8 max-md:text-lg max-md:p-0 max-md:text-[#4a4a4a] max-md:font-medium">
                 Creo sitios web a medida, con un{" "}
                 <span className="text-[#5157fd]">diseño único </span>y{" "}
                 <span className="text-[#5157fd]">personalizado</span>, que se

@@ -1,12 +1,11 @@
 import { LlamadaIcon } from "../../../assets/icons/contactme/LlamadaIcon.jsx";
 import { MailIcon } from "../../../assets/icons/contactme/MailIcon.jsx";
-import {Link} from "react-router-dom";
 
 function ContactCard({ Icon, text, link }) {
   return (
-      <a href={link} className="bg-[#303030] hover:bg-[#171717] transition-all text-white fill-white text-xl font-semibold p-10 rounded-2xl flex flex-row items-center gap-4">
+      <a href={link} className="bg-[#303030] max-md:bg-[#171717] hover:bg-[#171717] transition-all text-white fill-white text-xl font-semibold p-10 max-md:p-6 rounded-2xl flex flex-row items-center gap-4">
         <Icon />
-        <h6>{text}</h6>
+        <h6 className=" max-md:text-base">{text}</h6>
       </a>
   );
 }
@@ -31,7 +30,7 @@ export default function ContactMe() {
             </span>
             </p>
           </div>
-          <div className="w-1/2 max-lg:w-full flex flex-col gap-4 p-4">
+          <div className="w-1/2 max-lg:w-full flex flex-col gap-4 p-4 max-md:p-0">
             <ContactCard Icon={LlamadaIcon} text="Realiza una llamada" link={"tel:9981725547"} />
             <ContactCard Icon={MailIcon} text="Contactame por correo" link={"mailto:noer.morales98@gmail.com"} />
           </div>
