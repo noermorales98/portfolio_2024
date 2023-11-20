@@ -3,9 +3,8 @@ import Header from "./sections/Header";
 import WebAMedida from "./sections/WebAMedida";
 import MyPortfolio from "./sections/MyPortfolio";
 import PreguntasFrecuentes from "./sections/PreguntasFrecuentes";
-import MyStack from "./sections/MyStack";
+import MyServices from "./sections/MyServices";
 import transition from "../../transitions/transition";
-import AnimatedText from "./sections/AnimatedText";
 import ContactMe from "./sections/ContactMe";
 
 function Home() {
@@ -14,9 +13,8 @@ function Home() {
       <Header />
       <WebAMedida />
       <MyPortfolio />
-      <div className="bg-[#171717] py-8 mt-20 max-md:pb-20 max-md:pt-2">
-        <MyStack />
-        <AnimatedText />
+      <div className="bg-[#171717] mt-20 pb-4 max-md:pb-14">
+        <MyServices />
       </div>
       <ContactMe />
       <PreguntasFrecuentes />

@@ -3,7 +3,7 @@ import { MailIcon } from "../../../assets/icons/contactme/MailIcon.jsx";
 
 function ContactCard({ Icon, text, link }) {
   return (
-      <a href={link} className="bg-[#303030] max-md:bg-[#171717] hover:bg-[#171717] transition-all text-white fill-white text-xl font-semibold p-10 max-md:p-6 rounded-2xl flex flex-row items-center gap-4">
+      <a href={link} className="bg-[#171717] max-md:bg-[#171717] hover:bg-black transition-all text-white fill-white text-xl font-semibold p-10 max-md:p-6 rounded-2xl flex flex-row items-center gap-4">
         <Icon />
         <h6 className=" max-md:text-base">{text}</h6>
       </a>

@@ -26,8 +26,6 @@
   transition: all 0.5s ease;
 }
 
-
-
 .info-rotate:hover h5 {
   transform: rotate(10deg);
   transition: all 0.5s ease;
@@ -82,7 +80,6 @@
   transform-origin: top;
 }
 
-
 .parallax {
   overflow: hidden;
   margin: 0;
@@ -101,9 +98,7 @@
 .parallax span {
   display: block;
   margin-right: 30px;
-  
 }
-
 
 .footerbg {
   background: url(cursor.png);
@@ -111,7 +106,7 @@
   background-position: left 10px bottom 10px;
   transition: all 0.5s ease;
   background-repeat: no-repeat;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   filter: invert(100%);
 }
 
@@ -129,8 +124,7 @@
   color: white;
 }
 
-
-.home-img{
+.home-img {
   background: url("profile/aboutme.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -144,18 +138,24 @@
   border-radius: 0rem;
 }
 
-@keyframes profile_animate{
-  0%{
-      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
-  50%{
-      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-  }
-  100%{
-      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+@media screen and (max-width: 768px) {
+  .home-img {
+    width: 300px;
+    height: 300px;
   }
 }
 
+@keyframes profile_animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
 
 .circle {
   width: 100px;
@@ -163,6 +163,10 @@
   border-radius: 50%;
   position: absolute;
   pointer-events: none; /* Evita que el círculo interfiera con otros eventos del ratón */
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 70%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 0, 0, 0) 70%
+  );
   display: none;
 }

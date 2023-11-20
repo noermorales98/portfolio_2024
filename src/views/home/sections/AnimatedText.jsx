@@ -60,7 +60,7 @@ ParallaxText.propTypes = {
 
 export default function AnimatedText() {
   return (
-    <section className="w-full bg-[#171717] font-semibold font-mono py-24 flex flex-col gap-2 text-[#686868] text-7xl max-md:text-2xl max-md:hidden">
+    <section className="w-full bg-[#171717] font-semibold pt-14 pb-20 font-mono flex flex-col gap-2 text-[#ffffff0b] text-6xl max-md:text-2xl max-md:hidden">
       <ParallaxText baseVelocity={-5}>
         Diseño y desarrollo de sitios web y apps
       </ParallaxText>
