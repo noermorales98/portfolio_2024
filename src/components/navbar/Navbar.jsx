@@ -44,6 +44,9 @@ export default function Navbar() {
                 <Link to="/about">Sobre mí</Link>
               </li>
               <li>
+                <Link to="/portafolio">Portafolio</Link>
+              </li>
+              <li>
                 <Link
                   to="/contact"
                   className="bg-[#171717] hover:bg-black text-white px-5 py-2 rounded-full"
