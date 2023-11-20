@@ -15,7 +15,7 @@ export default function Header() {
 
 function MainInfo() {
   return (
-    <div className="flex flex-row justify-between items-center font-sans text-[#171717] px-8 h-[70vh] max-md:h-[50vh] max-md:flex-col max-md:mt-0 max-md:justify-center">
+    <div className="flex flex-row justify-between items-center font-sans text-[#171717] px-10 max-md:px-8 h-[70vh] max-md:h-[50vh] max-md:flex-col max-md:mt-0 max-md:justify-center">
       <div className="w-3/5 flex flex-col gap-4 animate-fade-up max-md:w-full max-md:text-center">
         <h4 className="text-7xl max-md:text-5xl">
           Hola, soy <b>Noelí</b>

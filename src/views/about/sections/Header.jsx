@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 export default function Header() {
   return (
-    <section className="flex flex-col w-full items-center justify-center mt-20 max-lg:mt-32 max-md:mt-16">
+    <section className="flex flex-col w-full items-center justify-center mt-28 max-lg:mt-32 max-md:mt-16">
       <div className="max-w-7xl m-auto my-0 px-8">
         <div className="flex flex-row justify-center items-center w-full gap-10 m-auto max-lg:flex-col">
           <div className="flex flex-col items-start max-lg:items-center w-1/2 max-lg:w-full px-8 gap-4">
