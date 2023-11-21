@@ -1,8 +1,11 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { proyectos } from "../../../data/proyectos";
+import { useState } from "react";
 
 export default function Proyectos() {
+  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState("todos");
+
   return (
     <section className="flex flex-col w-full items-center justify-center">
       <div className="max-w-7xl m-auto w-full px-8 pt-10">
@@ -11,30 +14,63 @@ export default function Proyectos() {
             Ultimos proyectos
           </h1>
           <div className="flex flex-row gap-1 max-md:text-xs">
-            <button className="bg-gray-200 rounded-md px-2 py-1">Todos</button>
-            <button className="bg-gray-200 rounded-md px-2 py-1">
+            <button
+              onClick={() => setCategoriaSeleccionada("todos")}
+              className={
+                categoriaSeleccionada === "todos"
+                  ? "bg-gray-600 text-white rounded-md px-2 py-1"
+                  : "bg-gray-200 rounded-md px-2 py-1"
+              }
+            >
+              Todos
+            </button>
+            <button
+              onClick={() => setCategoriaSeleccionada("uxui")}
+              className={
+                categoriaSeleccionada === "uxui"
+                  ? "bg-gray-600 text-white rounded-md px-2 py-1"
+                  : "bg-gray-200 rounded-md px-2 py-1"
+              }
+            >
               Diseño UX/UI
             </button>
-            <button className="bg-gray-200 rounded-md px-2 py-1">
+            <button
+              onClick={() => setCategoriaSeleccionada("web")}
+              className={
+                categoriaSeleccionada === "web"
+                  ? "bg-gray-600 text-white rounded-md px-2 py-1"
+                  : "bg-gray-200 rounded-md px-2 py-1"
+              }
+            >
               Diseño web
             </button>
-            <button className="bg-gray-200 rounded-md px-2 py-1">
+            <button
+              onClick={() => setCategoriaSeleccionada("app")}
+              className={
+                categoriaSeleccionada === "app"
+                  ? "bg-gray-600 text-white rounded-md px-2 py-1"
+                  : "bg-gray-200 rounded-md px-2 py-1"
+              }
+            >
               Aplicaciones web
             </button>
           </div>
         </div>
         <div className="block w-full border-b pt-5"></div>
       </div>
-      <GridSection />
+      <GridSection categoria={categoriaSeleccionada} />
     </section>
   );
 }
 
-function GridSection() {
-
+function GridSection({ categoria }) {
+  const proyectosFiltrados =
+    categoria === "todos"
+      ? proyectos
+      : proyectos.filter((proyecto) => proyecto.tipo === categoria);
   return (
     <div className="grid grid-cols-3 max-sm:grid-cols-2 gap-6 justify-between max-w-7xl m-auto w-full px-8 pt-8 pb-32">
-      {proyectos.map((proyecto) => (
+      {proyectosFiltrados.map((proyecto) => (
         <Card
           key={proyecto.title}
           code={proyecto.code}
@@ -68,4 +104,8 @@ Card.propTypes = {
   image: PropTypes.string,
   title: PropTypes.string,
   description: PropTypes.string,
+};
+
+GridSection.propTypes = {
+  categoria: PropTypes.string,
 };

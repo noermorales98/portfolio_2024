@@ -91,7 +91,12 @@ function GridSection() {
           </span>
         </div>
       </div>
-      <div className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all col-span-2 bg-[#90c3ff] rounded-3xl flex flex-row justify-between animate-delay-[150ms] p-8">
+      <a
+        href={"https://dribbble.com/noermorales98"}
+        target="_blank"
+        rel="noreferrer"
+        className="animate-fade-up card active:outline-none focus:outline-none hover:cursor-pointer hover:shadow-md duration-500 transition-all col-span-2 bg-[#90c3ff] rounded-3xl flex flex-row justify-between animate-delay-[150ms] p-8"
+      >
         <div className="flex flex-col justify-between w-full max-md:gap-6">
           <span>
             <DesignIcon />
@@ -108,9 +113,15 @@ function GridSection() {
             </span>
           </div>
         </div>
-      </div>
-      <div className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all movil col-span-2 rounded-3xl animate-delay-[200ms] max-lg:h-48"></div>
-      <div className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all col-span-2 bg-[#c7acee] rounded-3xl flex flex-row justify-between animate-delay-[150ms] p-8">
+      </a>
+      <Link
+        to={"/portafolio/temperatura"}
+        className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all movil col-span-2 rounded-3xl animate-delay-[200ms] max-lg:h-48"
+      ></Link>
+      <Link
+        to={"/about"}
+        className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all col-span-2 bg-[#c7acee] rounded-3xl flex flex-row justify-between animate-delay-[150ms] p-8"
+      >
         <div className="flex flex-col justify-between w-full max-md:gap-6">
           <span>
             <AboutMeIcon />
@@ -126,8 +137,11 @@ function GridSection() {
             </span>
           </div>
         </div>
-      </div>
-      <div className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all bg-[#b5f2db] rounded-3xl animate-delay-[300ms] h-full">
+      </Link>
+      <Link
+        to={"/portafolio"}
+        className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all bg-[#b5f2db] rounded-3xl animate-delay-[300ms] h-full"
+      >
         <div className="flex flex-col justify-between w-full items-center h-full p-8 max-md:gap-6">
           <span className="w-full flex items-end flex-row justify-end">
             <ArrowUpRight />
@@ -138,8 +152,11 @@ function GridSection() {
             </div>
           </h5>
         </div>
-      </div>
-      <div className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all bg-[#f9d9e0] rounded-3xl animate-delay-[350ms]">
+      </Link>
+      <Link
+        to={"contacto"}
+        className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all bg-[#f9d9e0] rounded-3xl animate-delay-[350ms]"
+      >
         <div className="flex flex-col justify-between w-full items-center h-full p-8 max-md:gap-6">
           <span className="w-full flex items-end flex-row justify-end">
             <ArrowUpRight />
@@ -150,7 +167,7 @@ function GridSection() {
             </div>
           </h5>
         </div>
-      </div>
+      </Link>
     </div>
   );
 }

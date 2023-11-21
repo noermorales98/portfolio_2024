@@ -21,7 +21,7 @@ const motionProps = {
 export default function MyServices() {
   return (
     <motion.div
-      className="card-container bg-[#171717] py-24 max-md:pt-14"
+      className="card-container bg-[#171717] py-24 max-md:py-14 "
       {...motionProps}
     >
       <section className="flex flex-row justify-between items-center max-w-7xl m-auto px-8">
@@ -52,7 +52,6 @@ function GridSection() {
 }
 
 function TechCard({ tech, delay }) {
-  console.log(tech);
   return (
     <motion.div
       className="card-container"

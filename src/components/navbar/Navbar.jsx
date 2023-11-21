@@ -48,7 +48,7 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  to="/contact"
+                  to="/contacto"
                   className="bg-[#171717] hover:bg-black text-white px-5 py-2 rounded-full"
                 >
                   Contacto

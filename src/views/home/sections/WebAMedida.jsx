@@ -74,7 +74,7 @@ function ImagenPortafolio() {
     return (
         <div className="w-2/5 max-lg:w-full">
             <img
-                src="portfolio/techmate.png"
+                src="portfolio/techmate/techmate.png"
                 alt="Factusync"
                 className="rounded-2xl"
             />

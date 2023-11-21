@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <section className="flex flex-col w-full items-center justify-center mt-28 max-lg:mt-32 max-md:mt-16">
@@ -20,12 +21,12 @@ export default function Header() {
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
-              <a
-                href=""
+              <Link
+                to={"/contacto"}
                 className="btn bg-[#171717] h-16 px-8 rounded-2xl text-white hover:bg-black mt-4"
               >
                 Contactame
-              </a>
+              </Link>
             </motion.div>
 
             <span className="flex flex-row text-gray-700 fill-gray-700 pt-16">
