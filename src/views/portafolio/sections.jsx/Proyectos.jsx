@@ -10,9 +10,9 @@ export default function Proyectos() {
     <section className="flex flex-col w-full items-center justify-center">
       <div className="max-w-7xl m-auto w-full px-8 pt-10">
         <div className="flex flex-row justify-between  max-md:items-center max-md:justify-center">
-          <h1 className="text-xl font-bold max-lg:text-center max-md:text-base max-md:hidden">
+          <h4 className="text-xl font-bold max-lg:text-center max-md:text-base max-md:hidden">
             Ultimos proyectos
-          </h1>
+          </h4>
           <div className="flex flex-row gap-1 max-md:text-xs">
             <button
               onClick={() => setCategoriaSeleccionada("todos")}

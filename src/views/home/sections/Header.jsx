@@ -65,9 +65,9 @@ function GridSection() {
             className=" h-20 w-20"
             alt="profile"
           />
-          <h5 className="text-white text-2xl font-medium mt-4">
+          <h1 className="text-white text-2xl font-medium mt-4">
             Noelí Rodríguez
-          </h5>
+          </h1>
           <span className="text-[#dedede] text-base font-medium">
             Desarrollador Web
           </span>
