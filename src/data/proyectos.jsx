@@ -11,9 +11,10 @@ export const proyectos = [
     tecnologias: ["ViteJS", "NodeJS", "MongoDB", "Strapi", "TailwindCSS"],
     images: [
       { src: "portfolio/factusync/factusync.jpg" },
-      { src: "portfolio/equipohotel/equipohotel.png" },
-      { src: "portfolio/temperatura/temperatura.png" },
-      { src: "portfolio/noxthify/noxthify.jpg" },
+      { src: "portfolio/factusync/factusync01.png" },
+      { src: "portfolio/factusync/factusync02.png" },
+      { src: "portfolio/factusync/factusync03.png" },
+      { src: "portfolio/factusync/factusync04.png" },
     ],
   },
   {
@@ -34,9 +35,10 @@ export const proyectos = [
     ],
     images: [
       { src: "portfolio/equipohotel/equipohotel.png" },
-      { src: "portfolio/factusync/factusync.jpg" },
-      { src: "portfolio/temperatura/temperatura.png" },
-      { src: "portfolio/noxthify/noxthify.jpg" },
+      { src: "portfolio/equipohotel/equipohotel01.png" },
+      { src: "portfolio/equipohotel/equipohotel02.png" },
+      { src: "portfolio/equipohotel/equipohotel03.png" },
+      { src: "portfolio/equipohotel/equipohotel04.png" },
     ],
   },
   {
@@ -68,6 +70,14 @@ export const proyectos = [
     largeDescription:
       "Sitio web para la agencia Noxthify, el cual fue creado usando Wordpress y Divi.",
     tecnologias: ["Wordpress", "Divi"],
+    images: [
+      { src: "portfolio/noxthify/noxthify.jpg" },
+      { src: "portfolio/noxthify/noxthify01.png" },
+      { src: "portfolio/noxthify/noxthify02.png" },
+      { src: "portfolio/noxthify/noxthify03.png" },
+      { src: "portfolio/noxthify/noxthify04.png" },
+      { src: "portfolio/noxthify/noxthify05.png" },
+    ],
   },
 
   {
@@ -80,6 +90,12 @@ export const proyectos = [
     largeDescription:
       "Como freelancer, se me asignó el proyecto de QdelSur, el cual consistía en crear un sitio web para un hospital de Cancún. El sitio web fue creado usando Wordpress y Divi.",
     tecnologias: ["Wordpress", "Divi"],
+    images: [
+      { src: "portfolio/qdelsur/qdelsur.png" },
+      { src: "portfolio/qdelsur/qdelsur01.png" },
+      { src: "portfolio/qdelsur/qdelsur02.png" },
+      { src: "portfolio/qdelsur/qdelsur03.png" },
+    ],
   },
 
   {
@@ -92,6 +108,11 @@ export const proyectos = [
     largeDescription:
       "En Neo E Marketing, se me asignó el proyecto de Tulum Restaurant, el cual consistía en crear un sitio web para un restaurante en Dubai. El sitio web fue creado usando Wordpress y Elementor.",
     tecnologias: ["Wordpress", "Elementor"],
+    images: [
+      { src: "portfolio/tulum/tulum-restaurant.png" },
+      { src: "portfolio/tulum/tulum02.png" },
+      { src: "portfolio/tulum/tulum03.png" },
+    ],
   },
   {
     code: "puerto99-restaurant",
@@ -103,6 +124,11 @@ export const proyectos = [
     largeDescription:
       "En Neo E Marketing, se me asignó el proyecto de Puerto 99 Restaurant, el cual consistía en crear un sitio web para un restaurante en Dubai. El sitio web fue creado usando Wordpress y Elementor.",
     tecnologias: ["Wordpress", "Elementor"],
+    images: [
+      { src: "portfolio/puerto99/puerto99-restaurant.png" },
+      { src: "portfolio/puerto99/puerto99.png" },
+      { src: "portfolio/puerto99/puerto9901.png" },
+    ],
   },
   {
     code: "lyd-gary",
@@ -114,6 +140,14 @@ export const proyectos = [
     largeDescription:
       "Como freelancer, se me asignó el proyecto de LyD Gary, el cual consistía en crear un sitio web para un negocio de luces y decoraciones. El sitio web fue creado usando Wordpress y Divi.",
     tecnologias: ["Wordpress", "Divi"],
+    images:[
+      { src: "portfolio/lydgary/lydgary.png" },
+      { src: "portfolio/lydgary/lydgary00.png" },
+      { src: "portfolio/lydgary/lydgary01.png" },
+      { src: "portfolio/lydgary/lydgary02.png" },
+      { src: "portfolio/lydgary/lydgary03.png" },
+    ],
+
   },
 
   {
@@ -126,5 +160,10 @@ export const proyectos = [
     largeDescription:
       "Como freelancer, se me asignó el proyecto de Floristeria Mayameli, el cual consistía en crear un sitio web para una floristeria en Cancún. El sitio web fue creado usando Wordpress y Divi.",
     tecnologias: ["Wordpress", "Divi"],
+    images:[
+      {src: "portfolio/mayameli/mayameli.png"},
+      {src: "portfolio/mayameli/mayameli01.png"},
+      {src: "portfolio/mayameli/mayameli02.png"},
+    ]
   },
 ];

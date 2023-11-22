@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Header() {
   return (
-    <section className="flex flex-col gap-8 max-w-7xl m-auto w-full items-center justify-center max-lg:mt-32 max-md:mt-16">
+    <section className="flex flex-col gap-8 max-w-7xl m-auto w-full items-center justify-center max-lg:mt-0 max-md:mt-16">
       <MainInfo />
       <GridSection />
     </section>

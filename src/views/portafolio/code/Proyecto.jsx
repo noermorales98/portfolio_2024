@@ -9,10 +9,10 @@ function CarouselItem({ src, onNext, onPrev }) {
     <div className="carousel-item relative w-full">
       <img src={`../${src}`} className="w-full rounded-3xl" alt="name" />
       <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <button onClick={onPrev} className="btn btn-circle">
+        <button onClick={onPrev} className="btn btn-circle bg-[#ffffff80]">
           ❮
         </button>
-        <button onClick={onNext} className="btn btn-circle">
+        <button onClick={onNext} className="btn btn-circle bg-[#ffffff80]">
           ❯
         </button>
       </div>
