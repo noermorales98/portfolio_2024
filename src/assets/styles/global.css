@@ -11,7 +11,7 @@
 }
 
 .movil {
-  background: url(movil.png);
+  background: url("/movil.png");
   background-color: #fade7e;
   background-repeat: no-repeat;
   background-size: 140%;
