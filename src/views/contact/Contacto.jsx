@@ -11,10 +11,10 @@ const ContactInfo = ({ href, text, secondaryText }) => (
       className="flex flex-row items-center justify-between px-5 py-6 gap-8 border rounded-2xl w-[90%] max-lg:w-full bg-[#f5f5f7] hover:shadow-sm transition-all"
     >
       <p className="flex flex-col">
-        <span className="text-sm">{text}</span>
-        <span className="text-black text-base">{secondaryText}</span>
+        <span className="text-sm max-md:text-xs">{text}</span>
+        <span className="text-black text-base max-md:text-sm break-words">{secondaryText}</span>
       </p>
-      <span className="border border-gray-300 bg-white rounded-xl flex items-center justify-center p-2">
+      <span className="border border-gray-300 bg-white rounded-xl flex items-center justify-center p-2 max-[358px]:hidden">
         <box-icon name="right-arrow-alt"></box-icon>
       </span>
     </a>

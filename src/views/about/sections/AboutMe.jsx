@@ -6,7 +6,7 @@ function AboutMe() {
       <div className="grid grid-cols-5 max-md:grid-cols-1 max-w-6xl m-auto gap-2">
         <div className="bg-[#222222] col-span-3 max-md:col-span-1 fill-white py-10 pl-10 pr-14 rounded-2xl flex flex-col gap-8">
           <box-icon name="user-circle" size="lg"></box-icon>
-          <p className="text-white text-4xl font-semibold pb-4">
+          <p className="text-white text-4xl font-semibold pb-4 max-lg:text-xl">
             Soy un desarrollador web con experiencia en React,{" "}
             <span className=" text-gray-400">
               también tengo concimientos en el <br /> diseño UX / UI.
@@ -16,7 +16,7 @@ function AboutMe() {
         <div className="bg-[#222222] fill-white rounded-2xl col-span-2 max-md:col-span-1 flex flex-col items-center gap-8 justify-between p-10">
           <div className="flex flex-col items-center gap-8">
             <box-icon name="file" size="lg"></box-icon>
-            <p className="text-white text-4xl font-semibold">Mas sobre mi</p>
+            <p className="text-white text-4xl font-semibold max-lg:text-xl">Mas sobre mi</p>
           </div>
           <motion.div
             className="box items-center w-full justify-center flex max-md:mt-6"
@@ -69,14 +69,14 @@ function AboutMe() {
         <div className="bg-[#222222] fill-white rounded-2xl col-span-2 max-md:col-span-1 flex flex-col items-start gap-8 justify-between p-10">
           <div className="flex flex-col items-start gap-8 justify-between">
             <box-icon name="buildings" size="lg"></box-icon>
-            <p className="text-white text-4xl font-semibold">
+            <p className="text-white text-4xl font-semibold max-lg:text-2xl">
               Con sede en <br /> Cancún, México <br />
               <span className="text-gray-400">UTC-5</span>
             </p>
           </div>
         </div>
         <div className="bg-[#222222] col-span-3 max-md:col-span-1 fill-white py-10 pl-10 pr-14 rounded-2xl flex flex-col gap-8">
-          <p className="text-white text-4xl font-semibold pb-4">
+          <p className="text-white text-4xl font-semibold pb-4 max-xl:text-xl">
             Como desarrollador web independiente, manejo desde sitios web
             básicos hasta aplicaciones web avanzadas. {""}
             <span className=" text-gray-400">
