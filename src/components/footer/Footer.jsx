@@ -47,7 +47,7 @@ export default function Footer() {
   const socialLinks = [
     { href: "https://www.instagram.com/noermorales/", Icon: InstagramIcon },
     { href: "https://www.linkedin.com/in/noermorales/", Icon: LinkedInIcon },
-    { href: "https://m.me/neormorales98", Icon: MessengerIcon },
+    { href: "https://m.me/neormoraless", Icon: MessengerIcon },
   ];
 
   return (
