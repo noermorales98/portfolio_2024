@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <section className="flex flex-col w-full items-center justify-center mt-28 max-lg:mt-32 max-md:mt-16">
-      <div className="max-w-7xl m-auto my-0 px-8">
+      <div className="max-w-7xl m-auto my-0 px-8 max-md:px-2">
         <div className="flex flex-row justify-center items-center w-full gap-10 m-auto max-lg:flex-col">
-          <div className="flex flex-col items-start max-lg:items-center w-1/2 max-lg:w-full px-8 gap-4">
+          <div className="flex flex-col items-start max-lg:items-center w-1/2 max-lg:w-full px-8 max-md:px-2 gap-4">
             <h1 className="text-5xl font-bold max-lg:text-center">
               Noelí Rodríguez<span className="max-sm:hidden">👋</span>
             </h1>

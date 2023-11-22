@@ -106,7 +106,7 @@ export default function StoryLine() {
           
         </div>
       </div>
-      <div className="w-full flex items-center justify-center pt-10">
+      <div className="w-full flex items-center justify-center pt-10 max-md:px-2">
         {toggle ? (
           <TimeLine datos={estudios} />
         ) : (

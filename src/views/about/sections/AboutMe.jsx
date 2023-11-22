@@ -9,12 +9,12 @@ function AboutMe() {
           <p className="text-white text-4xl font-semibold pb-4 max-lg:text-xl">
             Soy un desarrollador web con experiencia en React,{" "}
             <span className=" text-gray-400">
-              también tengo concimientos en el <br /> diseño UX / UI.
+              también tengo concimientos en el <br className=" max-md:hidden" /> diseño UX / UI.
             </span>
           </p>
         </div>
-        <div className="bg-[#222222] fill-white rounded-2xl col-span-2 max-md:col-span-1 flex flex-col items-center gap-8 justify-between p-10">
-          <div className="flex flex-col items-center gap-8">
+        <div className="bg-[#222222] fill-white rounded-2xl col-span-2 max-md:col-span-1 flex flex-col items-center gap-8 max-md:gap-0 justify-between p-10">
+          <div className="flex flex-col items-center gap-8 max-md:gap-4">
             <box-icon name="file" size="lg"></box-icon>
             <p className="text-white text-4xl font-semibold max-lg:text-xl">Mas sobre mi</p>
           </div>
@@ -75,8 +75,8 @@ function AboutMe() {
             </p>
           </div>
         </div>
-        <div className="bg-[#222222] col-span-3 max-md:col-span-1 fill-white py-10 pl-10 pr-14 rounded-2xl flex flex-col gap-8">
-          <p className="text-white text-4xl font-semibold pb-4 max-xl:text-xl">
+        <div className="bg-[#222222] col-span-3 max-md:col-span-1 fill-white py-10 pl-10 pr-14 max-md:pr-10 rounded-2xl flex flex-col gap-8">
+          <p className="text-white text-4xl font-semibold pb-4 max-xl:text-base">
             Como desarrollador web independiente, manejo desde sitios web
             básicos hasta aplicaciones web avanzadas. {""}
             <span className=" text-gray-400">
