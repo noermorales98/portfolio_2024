@@ -41,7 +41,7 @@ export default function Navbar() {
                 <Link to="/">Inicio</Link>
               </li>
               <li>
-                <Link to="/about">Sobre mí</Link>
+                <Link to="/sobre-mi">Sobre mí</Link>
               </li>
               <li>
                 <Link to="/portafolio">Portafolio</Link>
@@ -113,7 +113,7 @@ export default function Navbar() {
           </li>
           <li className="">
             <Link
-              to={"/about"}
+              to={"/sobre-mi"}
               className="flex flex-col items-center justify-center whitespace-nowrap hover:text-white"
             >
               <svg

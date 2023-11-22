@@ -23,7 +23,7 @@ const onscreen = {
 export default function Footer() {
   const pages = [
     { href: "/", text: "Inicio" },
-    { href: "/about", text: "Sobre mi" },
+    { href: "/sobre-mi", text: "Sobre mi" },
     { href: "/portafolio", text: "Portafolio" },
     { href: "/contacto", text: "Contacto" },
   ];
@@ -62,13 +62,13 @@ export default function Footer() {
           <LinkList title="Páginas" links={pages} />
           <LinkList title="Servicios" links={services} />
           <LinkList title="Contacto" links={contactInfo} />
-          <div className="col-span-2 px-10 flex items-center justify-start max-lg:hidden">
+          <Link to={"/contacto"} className="col-span-2 px-10 flex items-center justify-start max-lg:hidden">
             <span className="footerbg bg-gray-700 px-16 py-16 rounded-xl w-full h-full flex items-center justify-start">
               <h5 className="text-3xl font-bold text-white text-start">
                 Construye tu <br /> marca en línea
               </h5>
             </span>
-          </div>
+          </Link>
         </div>
         <div className="font-semibold pt-8 max-md:pb-16 flex flex-row justify-between items-center">
           <span className="text-gray-600 text-start max-md:text-xs">

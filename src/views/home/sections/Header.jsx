@@ -119,7 +119,7 @@ function GridSection() {
         className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all movil col-span-2 rounded-3xl animate-delay-[200ms] max-lg:h-48"
       ></Link>
       <Link
-        to={"/about"}
+        to={"/sobre-mi"}
         className="animate-fade-up card hover:cursor-pointer hover:shadow-md duration-500 transition-all col-span-2 bg-[#c7acee] rounded-3xl flex flex-row justify-between animate-delay-[150ms] p-8"
       >
         <div className="flex flex-col justify-between w-full max-md:gap-6">

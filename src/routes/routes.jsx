@@ -19,7 +19,7 @@ const AppRoutes = () => {
       
         <Routes location={location} key={location.pathname}>
           <Route index element={<Home />} />
-          <Route path="/about" element={<TransitionedAbout />} />
+          <Route path="/sobre-mi" element={<TransitionedAbout />} />
           <Route path="/portafolio" element={<TransitionedPortafolio />} />
           <Route path="/portafolio/:code" element={<TransitionedProyecto />} />
           <Route path="/contacto" element={<TransitionedContacto />} />

@@ -7,7 +7,7 @@ export const proyectos = [
     date: "nov. 2023 - may. 2024",
     description: "Aplicación web para el control de facturas.",
     largeDescription:
-      "Aplicacion web para el control de facturas, con la cual se pueden crear, editar, eliminar y visualizar facturas, además de poder descargarlas en formato PDF.",
+      "Como desarrollador independiente, desarrollé Factusync, una aplicación web para la gestión de facturas. Esta aplicación permite llevar el control de facturas de manera eficiente, además de ofrecer la funcionalidad de descargarlas en formato PDF. Construida con una combinación de tecnologías modernas, incluyendo ViteJS, NodeJS y Strapi, Factusync se destaca por su interfaz de usuario intuitiva y su backend robusto. El diseño responsivo y atractivo se logra mediante el uso de TailwindCSS, ofreciendo una experiencia de usuario coherente.",
     tecnologias: ["ViteJS", "NodeJS", "MongoDB", "Strapi", "TailwindCSS"],
     images: [
       { src: "portfolio/factusync/factusync.jpg" },
@@ -25,7 +25,7 @@ export const proyectos = [
     date: "mar. 2023 - dic. 2023",
     description: "Sitio web para un negocio de equipo hotelero.",
     largeDescription:
-      "Estando en Neo E Marketing, se me asignó el proyecto de Equipo Hotel, el cual consistía en crear un sitio web y una API para consultar los productos de la empresa usando SAP Business One. El sitio web fue creado usando NextJS y la API usando NodeJS y ExpressJS.",
+      "En mi rol con Neo E Marketing, jugué un papel clave en el desarrollo de 'Equipo Hotel', un proyecto que implicó la creación de un sitio web y una API para la visualización de productos hoteleros. Este proyecto destacó por su integración eficiente con SAP Business One a través de una API desarrollada con NodeJS y ExpressJS. El sitio web, construido con NextJS, se centró en consumir esta API.",
     tecnologias: [
       "NextJS",
       "NodeJS",
@@ -49,7 +49,7 @@ export const proyectos = [
     date: "abril. 2023 - may. 2023",
     description: "Diseño de interfaz para un sistema de control de temperatura",
     largeDescription:
-      "Diseño de interfaz para un sistema de control de temperatura, el cual consistía en un sistema de control de temperatura para una firma hotelera.",
+      "Este proyecto implicó el diseño de una interfaz de usuario para un sistema de control de temperatura para una cadena hotelera. Se puso especial énfasis en la usabilidad y la estética, empleando herramientas como Figma y TailwindCSS para crear un diseño que es funcional y fácil de manejar.",
     tecnologias: ["Figma", "ViteJS", "TailwindCSS"],
     images: [
       { src: "portfolio/temperatura/temperatura.png" },
@@ -68,7 +68,7 @@ export const proyectos = [
     date: "sep. 2023 - nov. 2023",
     description: "Sitio web para la agencia Noxthify.",
     largeDescription:
-      "Sitio web para la agencia Noxthify, el cual fue creado usando Wordpress y Divi.",
+      "Noxthify es un sitio web creado para una agencia, utilizando Wordpress y Divi. Este proyecto se centró en presentar la identidad de la marca de manera clara y atractiva, con un diseño web que refleja la innovación y creatividad de la agencia.",
     tecnologias: ["Wordpress", "Divi"],
     images: [
       { src: "portfolio/noxthify/noxthify.jpg" },
@@ -88,7 +88,7 @@ export const proyectos = [
     date: "jul. 2023 - nov. 2023",
     description: "Sitio web para un hospital de Cancún.",
     largeDescription:
-      "Como freelancer, se me asignó el proyecto de QdelSur, el cual consistía en crear un sitio web para un hospital de Cancún. El sitio web fue creado usando Wordpress y Divi.",
+      "Trabajando en colaboración con un amigo en mi rol de freelancer, participé en el desarrollo del sitio web para Quirúrgica del Sur, un hospital destacado en Cancún. El proyecto se centró en crear un sitio con Wordpress y Divi, ofreciendo una navegación intuitiva y un diseño atractivo. Nuestro esfuerzo conjunto permitió presentar eficazmente los servicios del hospital, logrando un sitio web tanto funcional como visualmente coherente.",
     tecnologias: ["Wordpress", "Divi"],
     images: [
       { src: "portfolio/qdelsur/qdelsur.png" },
@@ -106,7 +106,7 @@ export const proyectos = [
     date: "abr. 2022 - jun. 2022",
     description: "Sitio web para un restaurante en Dubai.",
     largeDescription:
-      "En Neo E Marketing, se me asignó el proyecto de Tulum Restaurant, el cual consistía en crear un sitio web para un restaurante en Dubai. El sitio web fue creado usando Wordpress y Elementor.",
+      "En Neo E Marketing, mi rol fue desarrollar un sitio web para Tulum Restaurant en Dubai. Con un enfoque en la experiencia del usuario, el sitio fue construido usando Wordpress y Elementor, destacando la oferta culinaria y la atmósfera única del restaurante.",
     tecnologias: ["Wordpress", "Elementor"],
     images: [
       { src: "portfolio/tulum/tulum-restaurant.png" },
@@ -122,7 +122,7 @@ export const proyectos = [
     date: "abr. 2022 - jun. 2022",
     description: "Sitio web para un restaurante en Dubai.",
     largeDescription:
-      "En Neo E Marketing, se me asignó el proyecto de Puerto 99 Restaurant, el cual consistía en crear un sitio web para un restaurante en Dubai. El sitio web fue creado usando Wordpress y Elementor.",
+      "Este proyecto, realizado en Neo E Marketing, implicó la creación de un sitio web para Puerto 99 Restaurant en Dubai. Utilizando Wordpress y Elementor, el sitio combina un diseño y navegación intuitiva, reflejando la calidad y la sofisticación del restaurante",
     tecnologias: ["Wordpress", "Elementor"],
     images: [
       { src: "portfolio/puerto99/puerto99-restaurant.png" },
@@ -138,16 +138,15 @@ export const proyectos = [
     date: "nov. 2023 - dic. 2023",
     description: "Sitio web para un negocio de luces y decoraciones.",
     largeDescription:
-      "Como freelancer, se me asignó el proyecto de LyD Gary, el cual consistía en crear un sitio web para un negocio de luces y decoraciones. El sitio web fue creado usando Wordpress y Divi.",
+      "En mi función de freelancer, me encargué del desarrollo del sitio web para LyD Gary, un negocio de ventas de luces y decoraciones. Este proyecto, realizado con Wordpress y Divi, se distinguió por su capacidad para cumplir con las expectativas y requerimientos específicos del cliente. El diseño del sitio web se centró en resaltar los productos y servicios ofrecidos por el negocio.",
     tecnologias: ["Wordpress", "Divi"],
-    images:[
+    images: [
       { src: "portfolio/lydgary/lydgary.png" },
       { src: "portfolio/lydgary/lydgary00.png" },
       { src: "portfolio/lydgary/lydgary01.png" },
       { src: "portfolio/lydgary/lydgary02.png" },
       { src: "portfolio/lydgary/lydgary03.png" },
     ],
-
   },
 
   {
@@ -158,12 +157,12 @@ export const proyectos = [
     date: "nov. 2023 - dic. 2023",
     description: "Sitio web para una floristeria en Cancún.",
     largeDescription:
-      "Como freelancer, se me asignó el proyecto de Floristeria Mayameli, el cual consistía en crear un sitio web para una floristeria en Cancún. El sitio web fue creado usando Wordpress y Divi.",
+      "Desarrollé el sitio web de Floristería Mayameli, un negocio en Cancún que se especializa en la venta de flores y servicios de decoración. Utilizando Wordpress y Divi, el sitio web fue diseñado para presentar de manera clara y atractiva todos sus servicios, asegurando que los clientes pudieran fácilmente explorar tanto los arreglos florales como las opciones de decoración.",
     tecnologias: ["Wordpress", "Divi"],
-    images:[
-      {src: "portfolio/mayameli/mayameli.png"},
-      {src: "portfolio/mayameli/mayameli01.png"},
-      {src: "portfolio/mayameli/mayameli02.png"},
-    ]
+    images: [
+      { src: "portfolio/mayameli/mayameli.png" },
+      { src: "portfolio/mayameli/mayameli01.png" },
+      { src: "portfolio/mayameli/mayameli02.png" },
+    ],
   },
 ];
