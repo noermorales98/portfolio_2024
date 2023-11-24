@@ -12,7 +12,7 @@ const projects = [
   {
     name: "FactuSync",
     description: "Aplicación web para la gestión de seguimiento de facturas.",
-    image: "portfolio/factusync/factusync.jpg",
+    image: "portfolio/factusync/factusync.webp",
     alt: "Factusync",
     code: "factusync",
   },
@@ -20,7 +20,7 @@ const projects = [
     name: "Noxthify",
     description:
       "Sitio web de Noxthify, agencia de desarollo de sitios web y apps.",
-    image: "portfolio/noxthify/noxthify.jpg",
+    image: "portfolio/noxthify/noxthify.webp",
     alt: "Noxthify",
     code: "noxthify",
   },

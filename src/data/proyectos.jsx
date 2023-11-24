@@ -2,7 +2,7 @@ export const proyectos = [
   {
     code: "factusync",
     tipo: "app",
-    image: "portfolio/factusync/factusync.jpg",
+    image: "portfolio/factusync/factusync.webp",
     title: "Factusync",
     date: "nov. 2023 - may. 2024",
     description: "Aplicación web para el control de facturas.",
@@ -10,7 +10,7 @@ export const proyectos = [
       "Como desarrollador independiente, desarrollé Factusync, una aplicación web para la gestión de facturas. Esta aplicación permite llevar el control de facturas de manera eficiente, además de ofrecer la funcionalidad de descargarlas en formato PDF. Construida con una combinación de tecnologías modernas, incluyendo ViteJS, NodeJS y Strapi, Factusync se destaca por su interfaz de usuario intuitiva y su backend robusto. El diseño responsivo y atractivo se logra mediante el uso de TailwindCSS, ofreciendo una experiencia de usuario coherente.",
     tecnologias: ["ViteJS", "NodeJS", "MongoDB", "Strapi", "TailwindCSS"],
     images: [
-      { src: "portfolio/factusync/factusync.jpg" },
+      { src: "portfolio/factusync/factusync.webp" },
       { src: "portfolio/factusync/factusync01.webp" },
       { src: "portfolio/factusync/factusync02.webp" },
       { src: "portfolio/factusync/factusync03.webp" },
@@ -63,7 +63,7 @@ export const proyectos = [
   {
     code: "noxthify",
     tipo: "web",
-    image: "portfolio/noxthify/noxthify.jpg",
+    image: "portfolio/noxthify/noxthify.webp",
     title: "Noxthify",
     date: "sep. 2023 - nov. 2023",
     description: "Sitio web para la agencia Noxthify.",
@@ -71,7 +71,7 @@ export const proyectos = [
       "Noxthify es un sitio web creado para una agencia, utilizando Wordpress y Divi. Este proyecto se centró en presentar la identidad de la marca de manera clara y atractiva, con un diseño web que refleja la innovación y creatividad de la agencia.",
     tecnologias: ["Wordpress", "Divi"],
     images: [
-      { src: "portfolio/noxthify/noxthify.jpg" },
+      { src: "portfolio/noxthify/noxthify.webp" },
       { src: "portfolio/noxthify/noxthify01.webp" },
       { src: "portfolio/noxthify/noxthify02.webp" },
       { src: "portfolio/noxthify/noxthify03.webp" },
