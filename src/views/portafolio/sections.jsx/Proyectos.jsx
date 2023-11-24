@@ -90,6 +90,8 @@ function Card({ code, image, title, description }) {
         <img
           src={image}
           alt={title}
+          width={500}
+          height={500}
           className="rounded-xl object-cover border"
         />
         <h2 className="font-semibold text-lg">{title}</h2>

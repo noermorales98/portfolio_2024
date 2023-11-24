@@ -59,7 +59,7 @@ function GridSection() {
       <div className="animate-fade-up card row-span-2 col-span-2 bg-[#171717] rounded-3xl p-8 flex flex-col items-start justify-between gap-10 animate-delay-[100ms]">
         <div className="flex flex-col items-start">
           <img
-            src="profile/profile3d.png"
+            src="profile/profile3d.webp"
             width={100}
             height={100}
             className=" h-20 w-20"

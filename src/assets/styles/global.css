@@ -107,7 +107,7 @@
 }
 
 .footerbg {
-  background: url(cursor.png);
+  background: url(cursor.webp);
   background-size: 10%;
   background-position: left 10px bottom 10px;
   transition: all 0.5s ease;

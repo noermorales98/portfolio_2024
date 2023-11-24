@@ -38,7 +38,7 @@ export default function Header() {
           </div>
           <div>
             <div className="block w-[500px] h-[500px] max-md:w-72 max-md:h-72">
-              <img src="profile/aboutme.png" alt="Noelí Rodríguez" className=" justify-self-center bg-contain bg-center bg-no-repeat" />
+              <img src="profile/aboutme.webp" width={500} height={500} alt="Noelí Rodríguez" className=" justify-self-center bg-contain bg-center bg-no-repeat" />
             </div>
           </div>
         </div>

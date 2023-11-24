@@ -7,7 +7,7 @@ import { useState } from "react";
 function CarouselItem({ src, onNext, onPrev }) {
   return (
     <div className="carousel-item relative w-full">
-      <img src={`../${src}`} className="w-full rounded-3xl" alt="name" />
+      <img width={500} height={500} src={`../${src}`} className="w-full rounded-3xl" alt="name" />
       <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <button onClick={onPrev} className="btn btn-circle bg-[#ffffff80]">
           ❮

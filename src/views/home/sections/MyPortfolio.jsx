@@ -28,7 +28,7 @@ const projects = [
     name: "Quirúrgica del Sur",
     description:
       "Sitio web de la empresa Quirúrgica del Sur, hospital de especialidades médicas.",
-    image: "portfolio/qdelsur/qdelsur.png",
+    image: "portfolio/qdelsur/qdelsur.webp",
     alt: "Quirúrgica del Sur",
     code: "qdelsur",
   },
@@ -77,6 +77,8 @@ function ProjectCard({ name, description, code, image, alt }) {
         <img
           src={image}
           alt={alt}
+          width={500}
+          height={500}
           className="rounded-2xl border transition-all duration-500"
         />
         <h5 className="text-2xl max-md:text-xl text-[#171717] text-center font-medium">
