@@ -25,7 +25,7 @@ export default function Header() {
                 to={"/contacto"}
                 className="btn bg-[#171717] h-16 px-8 rounded-2xl text-white hover:bg-black mt-4"
               >
-                Contactame
+                Contáctame
               </Link>
             </motion.div>
 

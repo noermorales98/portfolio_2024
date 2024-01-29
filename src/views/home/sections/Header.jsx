@@ -21,20 +21,18 @@ function MainInfo() {
           Hola, soy <b>Noelí</b>
         </h4>
         <span className="text-3xl max-md:text-xl max-md:hidden">
-          Te ayudo a construir tu sitio web <br />
-          <b>atractivo y funcional.</b>
+          Desarrollador Web {" "}
+          <b>en React.</b>
         </span>
         <span className="text-3xl max-md:text-xl hidden max-md:block">
-          Te ayudo a construir tu sitio web <br /> <b>atractivo</b>,{" "}
-          <b>funcional</b> y <b>moderno</b>,<br /> optimizado para todos los{" "}
-          <br />
-          dispositivos y usuarios.
+          Desarrollador web en React. Creo sitios únicos con enfoque en UX/UI y
+          diseño moderno.
         </span>
       </div>
       <div className="w-2/5 animate-fade-up flex flex-col items-start gap-4 animate-delay-[100ms] max-md:w-full max-md:text-center max-md:items-center">
         <span className="text-3xl pt-20 max-md:pt-10 max-md:text-lg max-md:hidden">
-          Lleve su presencia en línea al siguiente nivel con mis servicios de
-          diseño web y creación de contenido.
+          Desarrollador web en React. Creo sitios únicos con enfoque en UX/UI y
+          diseño moderno.
         </span>
         <motion.div
           className="box items-center justify-center flex max-md:my-4"
@@ -42,10 +40,10 @@ function MainInfo() {
           transition={{ type: "spring", stiffness: 400, damping: 10 }}
         >
           <Link
-            to="/contacto"
+            to="/sobre-mi"
             className="btn bg-[#171717] h-16 px-8 rounded-2xl text-white hover:bg-black mt-4"
           >
-            <span className=" text-base p-0 m-0">Contáctame</span>
+            <span className=" text-base p-0 m-0">Sobre mi</span>
           </Link>
         </motion.div>
       </div>
@@ -105,7 +103,7 @@ function GridSection() {
             <h5 className="text-black font-bold text-3xl max-lg:text-2xl flex flex-col">
               <div className="flex flex-col">
                 <span>Diseño</span>
-                <span>auténtico</span>
+                <span>UX/UI</span>
               </div>
             </h5>
             <span>

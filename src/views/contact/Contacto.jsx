@@ -42,7 +42,7 @@ function Contacto() {
         <title>Contacto - Noelí Rodríguez</title>
         <meta
           name="description"
-          content="Ponte en contacto conmigo, desarrollador web. Si estás interesado en mis servicios de desarrollo web y diseño UX/UI o tienes alguna consulta, no dudes en comunicarte."
+          content="Ponte en contacto conmigo, desarrollador web. Si tienes alguna consulta, no dudes en comunicarte."
         />
       </Helmet>
       <section className="flex flex-col w-full items-center justify-center mt-20 pt-8 max-lg:mt-32 max-md:mt-0">

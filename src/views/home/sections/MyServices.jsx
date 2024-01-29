@@ -27,12 +27,11 @@ export default function MyServices() {
       <section className="flex flex-row justify-between items-center max-w-7xl m-auto px-8">
         <div className="flex flex-col gap-4 items-center w-full justify-center">
           <h5 className="text-center text-5xl text-white font-medium max-md:text-3xl max-md:mb-3">
-            Servicios <span className=" max-md:hidden">que ofrezco</span>
+            Experiencia{" "}
+            <span className=" max-md:hidden">en Desarrollo Web </span>
           </h5>
           <p className="text-center text-2xl text-[#686868] max-md:text-base">
-            Estos son algunos de los servicios que ofrezco, si tienes alguna{" "}
-            <br className="max-md:hidden" />
-            duda o necesitas algo que no esté aquí, no dudes en contactarme.
+            Estos son algunas de los áreas en las que he trabajado como desarrollador y diseñador web
           </p>
           <GridSection />
         </div>

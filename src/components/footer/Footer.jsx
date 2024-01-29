@@ -62,10 +62,13 @@ export default function Footer() {
           <LinkList title="Páginas" links={pages} />
           <LinkList title="Servicios" links={services} />
           <LinkList title="Contacto" links={contactInfo} />
-          <Link to={"/contacto"} className="col-span-2 px-10 flex items-center justify-start max-lg:hidden">
+          <Link
+            to={"/contacto"}
+            className="col-span-2 px-10 flex items-center justify-start max-lg:hidden"
+          >
             <span className="footerbg bg-gray-700 px-16 py-16 rounded-xl w-full h-full flex items-center justify-start">
               <h5 className="text-3xl font-bold text-white text-start">
-                Construye tu <br /> marca en línea
+                Contáctame <br /> conmigo
               </h5>
             </span>
           </Link>
